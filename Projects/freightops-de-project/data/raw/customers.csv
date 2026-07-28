@@ -1,0 +1,201 @@
+customer_id,customer_name,customer_type,credit_terms_days,primary_freight_type,account_status,contract_start_date,annual_revenue_potential
+CUST00001,Metro Wholesale,Dedicated,60,General,Inactive,20-02-2020,985117
+CUST00002,National Retail,Contract,30,Retail,Active,02-06-2021,4936566
+CUST00003,XYZ Industries,Contract,30,Consumer Goods,Active,04-09-2020,3102814
+CUST00004,American Corp,Contract,15,Food/Beverage,Active,29-11-2020,3948027
+CUST00005,American Distribution,Spot,45,Consumer Goods,Active,04-02-2020,3682564
+CUST00006,American Industries,Dedicated,30,Consumer Goods,Active,16-02-2021,973274
+CUST00007,Superior Distribution,Spot,30,Food/Beverage,Active,05-02-2021,1499297
+CUST00008,American Logistics,Contract,30,Automotive,Inactive,23-07-2021,1613275
+CUST00009,XYZ Wholesale,Contract,30,Retail,Inactive,28-03-2020,4713444
+CUST00010,National Logistics,Dedicated,45,Automotive,Active,19-11-2021,3468505
+CUST00011,First Group,Dedicated,15,Electronics,Active,18-06-2020,4333669
+CUST00012,ABC Distribution,Dedicated,30,Electronics,Active,17-07-2020,2931263
+CUST00013,Pacific Corp,Dedicated,60,General,Active,29-08-2021,1426880
+CUST00014,Elite Foods,Contract,45,Consumer Goods,Active,17-04-2021,4578681
+CUST00015,First Group,Spot,15,Automotive,Active,27-08-2020,3816255
+CUST00016,United Industries,Dedicated,60,Food/Beverage,Active,19-03-2020,3055508
+CUST00017,Superior Supply Chain,Dedicated,60,Automotive,Active,02-03-2021,2743711
+CUST00018,ABC Retail,Dedicated,60,General,Active,12-06-2021,4714416
+CUST00019,American Supply Chain,Contract,30,Retail,Active,28-12-2020,2823396
+CUST00020,First Corp,Contract,30,Consumer Goods,Inactive,09-11-2021,3218209
+CUST00021,Elite Industries,Dedicated,60,Consumer Goods,Active,19-02-2020,3558986
+CUST00022,Continental Supply Chain,Contract,15,Automotive,Active,23-05-2021,3712034
+CUST00023,Continental Industries,Spot,30,General,Active,08-09-2021,2813302
+CUST00024,XYZ Distribution,Contract,15,Electronics,Active,05-05-2021,2119327
+CUST00025,Pacific Retail,Contract,30,Food/Beverage,Inactive,24-03-2020,4824000
+CUST00026,ABC Supply Chain,Dedicated,30,Retail,Inactive,14-10-2020,4677044
+CUST00027,Superior Foods,Spot,30,Automotive,Active,03-02-2021,1894559
+CUST00028,First Group,Contract,15,Automotive,Active,17-12-2021,3246257
+CUST00029,Superior Distribution,Dedicated,30,Food/Beverage,Active,14-07-2021,4715736
+CUST00030,ABC Manufacturing,Spot,15,Electronics,Active,25-03-2021,2231454
+CUST00031,American Manufacturing,Dedicated,30,Automotive,Active,13-05-2020,3119970
+CUST00032,Continental Wholesale,Dedicated,45,Food/Beverage,Active,01-09-2021,3895035
+CUST00033,XYZ Foods,Contract,30,Consumer Goods,Active,22-11-2020,3853900
+CUST00034,Elite Retail,Contract,60,Consumer Goods,Active,28-04-2021,3431037
+CUST00035,United Distribution,Spot,15,Food/Beverage,Active,23-12-2021,101641
+CUST00036,National Retail,Spot,45,Retail,Active,19-11-2021,390773
+CUST00037,American Retail,Spot,15,Consumer Goods,Active,16-05-2020,2486409
+CUST00038,Continental Supply Chain,Dedicated,30,Food/Beverage,Active,25-01-2020,236754
+CUST00039,XYZ Wholesale,Contract,60,Food/Beverage,Active,02-09-2020,4442022
+CUST00040,ABC Corp,Contract,60,Consumer Goods,Active,28-01-2020,1233181
+CUST00041,XYZ Industries,Dedicated,60,Food/Beverage,Active,01-05-2020,2632031
+CUST00042,American Corp,Dedicated,30,Automotive,Active,27-07-2021,155103
+CUST00043,First Manufacturing,Spot,30,Food/Beverage,Inactive,17-12-2020,2619383
+CUST00044,American Logistics,Contract,60,Food/Beverage,Active,02-10-2021,1961320
+CUST00045,First Logistics,Dedicated,30,Food/Beverage,Active,22-04-2021,1902064
+CUST00046,First Wholesale,Dedicated,30,Food/Beverage,Active,24-07-2021,2741611
+CUST00047,Elite Industries,Spot,45,Electronics,Inactive,08-08-2020,282044
+CUST00048,First Manufacturing,Spot,30,Automotive,Active,30-09-2021,2414896
+CUST00049,Continental Corp,Spot,45,Food/Beverage,Active,30-01-2020,4744463
+CUST00050,Global Manufacturing,Spot,60,General,Active,08-04-2020,4388856
+CUST00051,XYZ Wholesale,Contract,15,General,Inactive,20-01-2021,4766776
+CUST00052,Metro Corp,Contract,30,General,Active,01-04-2020,4887111
+CUST00053,Elite Supply Chain,Spot,60,Consumer Goods,Active,01-11-2021,4895027
+CUST00054,First Wholesale,Contract,60,Consumer Goods,Active,01-11-2021,1397841
+CUST00055,National Corp,Contract,30,Retail,Active,02-01-2021,890937
+CUST00056,Continental Retail,Dedicated,15,Electronics,Active,12-03-2020,416555
+CUST00057,Premier Wholesale,Contract,15,General,Active,28-07-2021,3961861
+CUST00058,Superior Foods,Contract,30,Electronics,Active,14-01-2020,3083456
+CUST00059,American Manufacturing,Spot,60,General,Active,01-07-2020,1409521
+CUST00060,Global Wholesale,Spot,30,Retail,Active,14-09-2021,1261052
+CUST00061,Elite Group,Spot,15,Automotive,Active,26-08-2021,2322881
+CUST00062,Premier Group,Dedicated,30,Electronics,Inactive,20-08-2020,3179314
+CUST00063,Superior Group,Dedicated,60,Automotive,Active,08-05-2021,4983476
+CUST00064,Metro Retail,Spot,15,Retail,Active,11-02-2021,2195951
+CUST00065,United Retail,Dedicated,15,Electronics,Active,09-06-2020,2054496
+CUST00066,Elite Foods,Dedicated,15,Automotive,Active,12-03-2020,2249529
+CUST00067,Metro Supply Chain,Contract,60,Retail,Active,11-01-2021,2619119
+CUST00068,Metro Manufacturing,Contract,30,Food/Beverage,Active,09-10-2020,870956
+CUST00069,Continental Manufacturing,Contract,15,Electronics,Active,18-06-2021,4885593
+CUST00070,First Group,Spot,60,Automotive,Inactive,11-12-2021,3453750
+CUST00071,Continental Supply Chain,Spot,60,Retail,Active,27-01-2020,4873662
+CUST00072,Continental Distribution,Spot,45,Food/Beverage,Inactive,11-12-2020,1923996
+CUST00073,Pacific Supply Chain,Dedicated,15,Electronics,Active,31-12-2020,747613
+CUST00074,First Industries,Contract,60,Food/Beverage,Active,17-08-2021,2823714
+CUST00075,Elite Corp,Contract,30,General,Inactive,20-04-2021,4147781
+CUST00076,Metro Wholesale,Spot,60,Electronics,Active,22-11-2021,1550411
+CUST00077,Metro Group,Spot,60,Retail,Inactive,23-08-2020,4195959
+CUST00078,Premier Wholesale,Spot,45,Retail,Inactive,09-01-2020,4933788
+CUST00079,Pacific Logistics,Spot,15,Electronics,Active,10-10-2020,899971
+CUST00080,First Distribution,Spot,60,General,Inactive,08-06-2020,2619881
+CUST00081,ABC Wholesale,Spot,30,Electronics,Active,06-03-2021,413495
+CUST00082,Global Logistics,Spot,45,Automotive,Inactive,25-06-2020,4934218
+CUST00083,Metro Logistics,Contract,60,Retail,Inactive,19-01-2020,3300640
+CUST00084,United Foods,Dedicated,30,Consumer Goods,Active,18-08-2020,758316
+CUST00085,Pacific Manufacturing,Dedicated,15,Food/Beverage,Active,21-06-2021,569113
+CUST00086,Premier Foods,Contract,45,Retail,Active,31-05-2020,2905063
+CUST00087,Global Logistics,Contract,60,General,Inactive,24-06-2021,3018650
+CUST00088,Continental Foods,Dedicated,45,Consumer Goods,Active,24-06-2020,3743209
+CUST00089,United Group,Spot,30,Electronics,Active,10-01-2021,3594037
+CUST00090,ABC Supply Chain,Dedicated,15,Retail,Active,04-02-2021,1111167
+CUST00091,American Distribution,Contract,15,Automotive,Active,09-09-2020,2001845
+CUST00092,Elite Group,Dedicated,15,Consumer Goods,Active,26-03-2021,195918
+CUST00093,United Group,Spot,15,General,Active,28-04-2020,3308533
+CUST00094,National Retail,Contract,60,General,Active,13-06-2020,554058
+CUST00095,First Foods,Contract,30,Consumer Goods,Active,21-07-2021,2656708
+CUST00096,Continental Logistics,Dedicated,45,Food/Beverage,Active,23-10-2021,4498846
+CUST00097,National Wholesale,Contract,60,Retail,Active,07-07-2020,445461
+CUST00098,National Supply Chain,Dedicated,45,Electronics,Active,27-07-2021,2778621
+CUST00099,First Logistics,Dedicated,15,General,Inactive,28-09-2020,4629258
+CUST00100,ABC Foods,Contract,30,Automotive,Active,05-03-2021,4838832
+CUST00101,United Corp,Contract,60,Automotive,Active,07-04-2021,1354768
+CUST00102,Pacific Industries,Dedicated,45,Electronics,Active,26-06-2020,2841662
+CUST00103,United Supply Chain,Contract,45,Automotive,Active,22-12-2020,4314450
+CUST00104,Pacific Corp,Contract,60,Food/Beverage,Inactive,24-09-2020,1952180
+CUST00105,First Corp,Spot,45,Electronics,Active,01-01-2022,1385113
+CUST00106,United Retail,Contract,45,Automotive,Active,19-03-2020,523790
+CUST00107,Premier Industries,Dedicated,60,Food/Beverage,Active,01-08-2020,3395738
+CUST00108,Global Distribution,Dedicated,30,Automotive,Active,09-12-2020,3838099
+CUST00109,Global Manufacturing,Contract,60,Retail,Active,26-06-2021,4925587
+CUST00110,Continental Group,Spot,60,Electronics,Active,13-12-2021,4333976
+CUST00111,XYZ Wholesale,Contract,30,Automotive,Active,07-04-2020,855670
+CUST00112,ABC Wholesale,Contract,45,Automotive,Inactive,25-12-2020,1962989
+CUST00113,Premier Group,Spot,60,Food/Beverage,Active,06-04-2020,3723339
+CUST00114,Premier Manufacturing,Contract,45,Retail,Active,02-05-2021,2530876
+CUST00115,Global Corp,Dedicated,45,Retail,Inactive,07-02-2021,3407816
+CUST00116,Premier Logistics,Spot,45,Food/Beverage,Active,29-10-2021,1341618
+CUST00117,Superior Industries,Spot,60,Retail,Active,27-02-2020,1208882
+CUST00118,Continental Manufacturing,Dedicated,30,Consumer Goods,Active,29-06-2020,2919983
+CUST00119,ABC Manufacturing,Contract,15,Automotive,Inactive,01-12-2020,792438
+CUST00120,Superior Corp,Contract,30,Automotive,Active,21-06-2021,4091758
+CUST00121,ABC Corp,Spot,60,Retail,Active,14-07-2020,4893591
+CUST00122,Metro Foods,Dedicated,30,Automotive,Active,02-02-2020,513651
+CUST00123,American Corp,Spot,15,Retail,Active,10-08-2020,4698235
+CUST00124,First Supply Chain,Contract,30,Food/Beverage,Active,16-06-2020,3448659
+CUST00125,XYZ Supply Chain,Contract,60,Electronics,Active,28-07-2021,2302495
+CUST00126,First Retail,Dedicated,45,Food/Beverage,Active,14-04-2020,813694
+CUST00127,Global Group,Spot,15,Electronics,Active,18-03-2021,3443087
+CUST00128,XYZ Group,Spot,30,Consumer Goods,Active,05-02-2021,4309597
+CUST00129,Global Wholesale,Contract,60,Food/Beverage,Active,08-11-2020,3744775
+CUST00130,First Group,Dedicated,15,General,Active,16-03-2020,1193666
+CUST00131,National Distribution,Contract,15,Consumer Goods,Inactive,06-02-2021,1231377
+CUST00132,Superior Retail,Dedicated,30,Automotive,Inactive,10-09-2021,4134270
+CUST00133,United Supply Chain,Contract,60,Food/Beverage,Active,25-09-2021,4791716
+CUST00134,Superior Supply Chain,Contract,60,Electronics,Active,15-07-2020,1761854
+CUST00135,Premier Retail,Dedicated,15,Retail,Inactive,27-02-2020,4192475
+CUST00136,Pacific Corp,Contract,15,Retail,Active,25-10-2021,3416174
+CUST00137,First Industries,Dedicated,45,Food/Beverage,Active,18-11-2021,4892669
+CUST00138,First Logistics,Spot,30,Food/Beverage,Active,22-08-2021,1745000
+CUST00139,XYZ Supply Chain,Dedicated,45,Consumer Goods,Active,03-07-2021,4807415
+CUST00140,American Retail,Dedicated,15,Food/Beverage,Active,30-11-2021,4497709
+CUST00141,Metro Corp,Contract,15,Retail,Active,09-06-2021,2165659
+CUST00142,Elite Retail,Contract,60,General,Active,14-09-2021,2132686
+CUST00143,ABC Supply Chain,Contract,60,Food/Beverage,Active,22-08-2020,700993
+CUST00144,National Distribution,Dedicated,45,Retail,Active,19-06-2021,2333526
+CUST00145,National Foods,Contract,15,Retail,Inactive,22-09-2021,3707652
+CUST00146,First Foods,Contract,30,Food/Beverage,Active,30-11-2021,2812973
+CUST00147,ABC Group,Spot,60,Consumer Goods,Active,27-05-2020,4931991
+CUST00148,Pacific Supply Chain,Spot,60,Electronics,Inactive,15-03-2020,851574
+CUST00149,First Group,Dedicated,15,Electronics,Active,30-11-2020,1043968
+CUST00150,American Industries,Dedicated,30,Consumer Goods,Active,28-02-2020,3569377
+CUST00151,ABC Foods,Spot,45,Automotive,Active,18-08-2020,3652916
+CUST00152,Metro Retail,Dedicated,30,Retail,Active,12-07-2020,3164087
+CUST00153,Superior Group,Dedicated,15,Automotive,Active,03-04-2020,3021818
+CUST00154,XYZ Distribution,Spot,30,Automotive,Active,14-01-2020,1697943
+CUST00155,Global Group,Spot,30,Electronics,Inactive,07-05-2020,2790548
+CUST00156,First Logistics,Dedicated,15,Electronics,Active,14-04-2021,2990084
+CUST00157,Metro Distribution,Dedicated,45,General,Active,12-11-2021,303061
+CUST00158,United Retail,Contract,30,Retail,Active,22-12-2020,2657005
+CUST00159,Metro Wholesale,Dedicated,15,General,Active,20-05-2021,1519816
+CUST00160,XYZ Retail,Contract,30,Consumer Goods,Active,21-04-2020,3033633
+CUST00161,First Wholesale,Spot,15,Food/Beverage,Active,21-10-2021,3809527
+CUST00162,Metro Distribution,Spot,45,General,Active,19-12-2021,1323214
+CUST00163,Continental Manufacturing,Spot,60,Food/Beverage,Active,02-06-2021,3794875
+CUST00164,ABC Industries,Spot,45,Automotive,Active,01-03-2020,476460
+CUST00165,Continental Supply Chain,Dedicated,60,Retail,Active,16-08-2020,2058652
+CUST00166,ABC Distribution,Dedicated,60,Consumer Goods,Active,12-10-2021,1775080
+CUST00167,XYZ Logistics,Contract,30,General,Active,09-09-2020,3235836
+CUST00168,Global Foods,Spot,15,Retail,Active,18-03-2020,1408549
+CUST00169,First Distribution,Dedicated,15,Consumer Goods,Active,31-10-2021,819863
+CUST00170,Elite Retail,Contract,15,Automotive,Active,28-12-2020,1042642
+CUST00171,Premier Wholesale,Contract,45,Automotive,Active,09-06-2020,557498
+CUST00172,National Industries,Contract,45,Automotive,Active,02-11-2020,2138836
+CUST00173,Metro Wholesale,Spot,45,Automotive,Active,20-12-2020,1338805
+CUST00174,National Supply Chain,Contract,45,Electronics,Active,07-01-2020,2513277
+CUST00175,ABC Wholesale,Spot,30,Electronics,Active,03-11-2021,215203
+CUST00176,Metro Distribution,Contract,30,Automotive,Active,10-04-2020,2979568
+CUST00177,First Logistics,Contract,60,Automotive,Active,04-04-2021,1033467
+CUST00178,Metro Corp,Contract,60,General,Active,09-07-2020,2659515
+CUST00179,XYZ Corp,Dedicated,15,Retail,Active,21-11-2021,3875390
+CUST00180,ABC Distribution,Spot,45,General,Active,21-10-2021,4052630
+CUST00181,Superior Group,Contract,30,Automotive,Active,24-02-2021,290825
+CUST00182,XYZ Foods,Spot,60,Consumer Goods,Active,14-10-2021,2883983
+CUST00183,Pacific Foods,Spot,15,Electronics,Active,25-05-2021,1853299
+CUST00184,Elite Distribution,Contract,15,Food/Beverage,Inactive,19-07-2020,4613116
+CUST00185,Premier Industries,Contract,45,Electronics,Active,24-09-2021,1877338
+CUST00186,National Wholesale,Dedicated,45,Electronics,Active,20-09-2021,1809609
+CUST00187,Metro Logistics,Contract,15,Consumer Goods,Active,10-05-2021,4683738
+CUST00188,American Manufacturing,Spot,45,Consumer Goods,Active,06-07-2020,4489472
+CUST00189,First Retail,Spot,45,Electronics,Active,03-12-2020,2269780
+CUST00190,Global Wholesale,Dedicated,60,Food/Beverage,Active,21-06-2021,4703668
+CUST00191,Pacific Group,Contract,60,Automotive,Active,18-06-2021,4151918
+CUST00192,Premier Manufacturing,Spot,60,Automotive,Active,12-07-2020,1285708
+CUST00193,Premier Supply Chain,Spot,30,Automotive,Active,29-02-2020,254254
+CUST00194,ABC Group,Spot,45,Consumer Goods,Active,22-04-2021,3259205
+CUST00195,First Manufacturing,Spot,60,Electronics,Active,28-05-2020,4990599
+CUST00196,XYZ Logistics,Spot,60,Retail,Active,01-04-2020,4519111
+CUST00197,ABC Corp,Contract,15,Consumer Goods,Active,02-07-2021,464753
+CUST00198,Elite Wholesale,Dedicated,60,Retail,Active,09-06-2020,2242923
+CUST00199,First Group,Contract,15,General,Active,09-06-2020,1528744
+CUST00200,XYZ Foods,Dedicated,45,Retail,Inactive,02-11-2020,604239
