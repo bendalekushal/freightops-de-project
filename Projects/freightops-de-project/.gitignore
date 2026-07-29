@@ -18,6 +18,7 @@ data/raw/
 data/bronze/
 data/silver/
 data/gold/
+data/delta_test/
 *.csv
 *.parquet
 !docs/**/*.csv
