@@ -15,6 +15,9 @@ trips_df = spark.read.format("csv")\
     .option("inferSchema", "true")\
     .load("data/raw/trips.csv")
 
+print("BEFORE:")
+trips_df.printSchema()
+
 trips_df = trips_df.withColumn\
     ("driver_id_missing", when(col("driver_id").isNull(), True).otherwise(False))
 trips_df = trips_df.withColumn\
@@ -30,6 +33,9 @@ print("trailer_id missing count:", missing_trailers_count)
 
 missing_trucks_count = trips_df.filter(col("truck_id_missing") == True).count()
 print("truck_id missing count:", missing_trucks_count)
+
+print("AFTER:")
+trips_df.printSchema() 
 
 trips_df.write\
     .format("delta")\
