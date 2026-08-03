@@ -1,5 +1,5 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import when, col
+from pyspark.sql import functions as F 
 from delta import configure_spark_with_delta_pip
 
 builder = SparkSession.builder\
@@ -19,19 +19,19 @@ print("BEFORE:")
 trips_df.printSchema()
 
 trips_df = trips_df.withColumn\
-    ("driver_id_missing", when(col("driver_id").isNull(), True).otherwise(False))
+    ("driver_id_missing", F.when(F.col("driver_id").isNull(), True).otherwise(False))
 trips_df = trips_df.withColumn\
-    ("trailer_id_missing", when(col("trailer_id").isNull(), True).otherwise(False))
+    ("trailer_id_missing", F.when(F.col("trailer_id").isNull(), True).otherwise(False))
 trips_df = trips_df.withColumn\
-    ("truck_id_missing", when(col("truck_id").isNull(), True).otherwise(False))
+    ("truck_id_missing", F.when(F.col("truck_id").isNull(), True).otherwise(False))
 
-missing_drivers_count = trips_df.filter(col("driver_id_missing") == True).count()
+missing_drivers_count = trips_df.filter(F.col("driver_id_missing") == True).count()
 print("driver_id missing count:", missing_drivers_count)
 
-missing_trailers_count = trips_df.filter(col("trailer_id_missing") == True).count()
+missing_trailers_count = trips_df.filter(F.col("trailer_id_missing") == True).count()
 print("trailer_id missing count:", missing_trailers_count)
 
-missing_trucks_count = trips_df.filter(col("truck_id_missing") == True).count()
+missing_trucks_count = trips_df.filter(F.col("truck_id_missing") == True).count()
 print("truck_id missing count:", missing_trucks_count)
 
 print("AFTER:")
@@ -42,6 +42,8 @@ trips_df.write\
     .mode("overwrite")\
     .save("data/silver/trips")
 
-trips_df.show()
+print("Number of partitions:", trips_df.rdd.getNumPartitions())
+
+trips_df.groupBy(F.spark_partition_id()).count().show()
 
 spark.stop()
