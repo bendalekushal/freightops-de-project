@@ -43,7 +43,16 @@ trips_df.write\
     .save("data/silver/trips")
 
 print("Number of partitions:", trips_df.rdd.getNumPartitions())
-
 trips_df.groupBy(F.spark_partition_id()).count().show()
+
+skewed_df = trips_df.repartition(4, "trip_status")
+skewed_df.groupBy(F.spark_partition_id()).count().show()
+print("Skewed partitions:", skewed_df.rdd.getNumPartitions())
+
+
+salted_df = trips_df.withColumn("salt", (F.rand() * 20).cast("int"))
+salted_df = salted_df.repartition(4, "trip_status", "salt")
+salted_df.groupBy(F.spark_partition_id()).count().show()
+print("Salted partitions:", salted_df.rdd.getNumPartitions())
 
 spark.stop()
