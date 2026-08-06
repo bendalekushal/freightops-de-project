@@ -26,7 +26,8 @@ trips_df = spark.read.format("delta")\
 
 
 joined_df = loads_df.join(F.broadcast(customers_df), on="customer_id", how="inner")\
-    .join(trips_df, on="load_id", how="inner")
+    .join(trips_df, on="load_id", how="inner")\
+    .cache()
 
 result_df = joined_df.groupBy("customer_id").agg(
    F.round(F.sum("revenue"), 2).alias("total_revenue"),
@@ -37,6 +38,12 @@ result_df = result_df.withColumn(
     F.round(F.col("total_revenue") / F.col("total_miles"), 2)
 )
 
+avg_df = joined_df.groupBy('customer_id').avg('actual_distance_miles')\
+    .withColumnRenamed('avg(actual_distance_miles)', 'avg_distance_miles')
+
 result_df = result_df.orderBy(F.col("revenue_per_mile").desc())
 
 result_df.show(10)
+avg_df.show(10)
+
+spark.stop()
