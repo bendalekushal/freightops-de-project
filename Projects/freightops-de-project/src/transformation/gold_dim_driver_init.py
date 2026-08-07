@@ -12,6 +12,7 @@ spark.sparkContext.setLogLevel("ERROR")
 
 drivers_df = spark.read.format("delta").load("data/silver/drivers")
 
+
 dim_driver_df = drivers_df \
     .withColumn("effective_start_date", F.current_date()) \
     .withColumn("effective_end_date", F.lit(None).cast("date")) \
