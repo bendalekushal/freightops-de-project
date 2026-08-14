@@ -1,0 +1,34 @@
+# --- CRITICAL: never commit AWS credentials or secrets ---
+.env
+*.pem
+*.key
+aws_credentials*
+**/credentials
+**/.aws/
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# --- Data (never commit raw or intermediate data files) ---
+data/raw/
+data/bronze/
+data/silver/
+data/gold/
+data/delta_test/
+*.csv
+*.parquet
+!docs/**/*.csv
+
+# --- OS / Editor ---
+.DS_Store
+.vscode/settings.json
+*.log
+
+# --- Terraform/IaC state (Phase 8 — never commit state files, they can contain secrets) ---
+*.tfstate
+*.tfstate.backup
+.terraform/
