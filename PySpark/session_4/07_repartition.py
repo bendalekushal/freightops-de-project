@@ -21,12 +21,25 @@ df = spark.createDataFrame(data, columns)
 
 print("Original partitions:", df.rdd.getNumPartitions())
 
-df_repartitioned = df.repartition(2, "department")
+# df_repartitioned = df.repartition(2, "department")
 
-print("after repartitioning:"
-      , df_repartitioned.rdd.getNumPartitions()
-)
+# print("after repartitioning:"
+#       , df_repartitioned.rdd.getNumPartitions()
+# )
 
-df_repartitioned.explain("formatted")
+# df_repartitioned.explain("formatted")
+
+# df_coalesced = df.coalesce(2)
+
+# print(
+#     "After coalesce:",
+#     df_coalesced.rdd.getNumPartitions()
+# )
+
+result = df.groupBy("department").count()
+
+result.show()
+
+result.explain("formatted")
 
 spark.stop()
