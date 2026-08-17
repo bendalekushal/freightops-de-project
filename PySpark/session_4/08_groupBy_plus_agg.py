@@ -2,7 +2,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql import functions as F
 
 spark = SparkSession.builder \
-    .appName("RepartitionExample") \
+    .appName("groupBy&aggExample") \
     .master("local[*]") \
     .getOrCreate()
 
@@ -36,20 +36,33 @@ df = spark.createDataFrame(data, columns)
 #     )
 # )
 
-result = (
+# result = (
+#     df
+#     .groupBy("department")
+#     .agg(
+#         F.sum("salary").alias("total_salary")
+#     )
+#     .filter(F.col("total_salary") > 150000)
+# )
+result_a = (
     df
     .groupBy("department")
     .agg(
         F.sum("salary").alias("total_salary")
     )
-    .filter(F.col("total_salary") > 150000)
 )
 
-result.show()
-result.explain("formatted")
+result_a.explain("formatted")
 
-result.show()
+result_b = (
+    df
+    .select("department", "salary")
+    .groupBy("department")
+    .agg(
+        F.sum("salary").alias("total_salary")
+    )
+)
 
-result.explain("formatted")
+result_b.explain("formatted")
 
 spark.stop()
