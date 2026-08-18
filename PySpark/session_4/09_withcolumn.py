@@ -19,17 +19,24 @@ columns = ["name", "department", "salary"]
 
 df = spark.createDataFrame(data, columns)
 
-result = (
-    df
-    .withColumn("annual_salary", F.col("salary") * 12)
-    .withColumn("monthly_bonus", F.col("salary") * 0.10)
-    .withColumn(
-        "total_compensation",
-        F.col("annual_salary") + (F.col("monthly_bonus") * 12)
-    )
-)
+# result = (
+#     df
+#     .withColumn("annual_salary", F.col("salary") * 12)
+#     .withColumn("monthly_bonus", F.col("salary") * 0.10)
+#     .withColumn(
+#         "total_compensation",
+#         F.col("annual_salary") + (F.col("monthly_bonus") * 12)
+#     )
+# )
+
+# result = df.drop("name")
+# result.show()
+
+result = df.select("department").distinct()
 
 result.show()
+
+
 
 print("Original partitions:", df.rdd.getNumPartitions())
 print("New partitions:", result.rdd.getNumPartitions())
