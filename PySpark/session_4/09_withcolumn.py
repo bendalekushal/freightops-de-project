@@ -32,7 +32,7 @@ df = spark.createDataFrame(data, columns)
 # result = df.drop("name")
 # result.show()
 
-result = df.select("department").distinct()
+result = df.dropDuplicates(["department"])
 
 result.show()
 
@@ -42,3 +42,5 @@ print("Original partitions:", df.rdd.getNumPartitions())
 print("New partitions:", result.rdd.getNumPartitions())
 
 result.explain("formatted")
+
+spark.stop()
