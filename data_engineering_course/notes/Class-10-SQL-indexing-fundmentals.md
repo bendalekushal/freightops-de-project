@@ -107,3 +107,31 @@ INDEX
 INDEX EXISTS
 ≠
 INDEX WILL ALWAYS BE USED
+
+╔══════════════════════════════════════╗
+║ CARDINALITY vs SELECTIVITY           ║
+╚══════════════════════════════════════╝
+
+CARDINALITY
+→ DISTINCTNESS of the column
+
+parcel_id
+→ 10M distinct
+→ High cardinality
+
+status
+→ 3 distinct
+→ Low cardinality
+
+
+SELECTIVITY
+→ How much a QUERY FILTER
+  narrows the rows
+
+WHERE parcel_id = P001
+→ ~1 row
+→ High selectivity
+
+WHERE status = DELIVERED
+→ 60% rows
+→ Low selectivity
